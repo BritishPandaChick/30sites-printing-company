@@ -1,0 +1,60 @@
+/* Sass Variables */
+$cornflower: #334195;
+$phthalo: #020887;
+$hover-color: #647AA3;
+$base-color: #333;
+$base-font: "Passion One", cursive;
+
+/* Base styles */
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: $base-color;
+}
+
+/* Header */
+header {
+    background-color: $phthalo;
+
+    .navbar-brand {
+        font-size: 35px;
+        font-family: $base-font;
+        color: #fff;
+    }
+
+    .dropdown-menu {
+        background-color: $phthalo;
+    }
+
+    .dropdown-item, .nav-item {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .nav-item:hover {
+        color: $hover-color;
+    }
+}
+
+/* Banner */ 
+#banner {
+    background-color: red;
+    padding: 20px 0;
+
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: $base-font;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}

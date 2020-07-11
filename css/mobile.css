@@ -1,0 +1,49 @@
+/* Sass Variables */
+/* Base styles */
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #020887;
+}
+header .navbar-brand {
+  font-size: 35px;
+  font-family: "Passion One", cursive;
+  color: #fff;
+}
+header .dropdown-menu {
+  background-color: #020887;
+}
+header .dropdown-item, header .nav-item {
+  color: #fff;
+  font-size: 20px;
+}
+header .nav-item:hover {
+  color: #647AA3;
+}
+
+/* Banner */
+#banner {
+  background-color: red;
+  padding: 20px 0;
+}
+#banner h2 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Passion One", cursive;
+}
+#banner p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  font-family: sans-serif;
+}
+#banner span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=mobile.css.map */
