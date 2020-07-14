@@ -167,6 +167,9 @@ header .nav-item:hover {
   background-color: #334195;
   padding: 20px 0;
 }
+#bottom-nav .link-group {
+  padding: 15px 0;
+}
 #bottom-nav h3 {
   font-size: 25px;
   color: #fff;
@@ -180,6 +183,18 @@ header .nav-item:hover {
 /* Footer */
 footer {
   background-color: #020887;
+  padding: 15px 0;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 10px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #647AA3;
 }
 
 /*# sourceMappingURL=mobile.css.map */

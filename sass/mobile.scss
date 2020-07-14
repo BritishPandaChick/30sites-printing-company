@@ -200,6 +200,10 @@ header {
     background-color: $cornflower;
     padding: 20px 0;
 
+    .link-group {
+        padding: 15px 0;
+    }
+
     h3 {
         font-size: 25px;
         color: #fff;
@@ -215,4 +219,19 @@ header {
 /* Footer */ 
 footer {
     background-color: $phthalo;
+    padding: 15px 0;
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
+    }
 }

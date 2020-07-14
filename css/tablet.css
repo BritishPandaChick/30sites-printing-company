@@ -1,0 +1,166 @@
+/* Sass Variables */
+/* Base styles */
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #020887;
+}
+header .navbar-brand {
+  font-size: 40px;
+  font-family: "Passion One", cursive;
+  color: #fff;
+}
+header .dropdown-menu {
+  background-color: #020887;
+}
+header .dropdown-item, header .nav-item {
+  color: #fff;
+  font-size: 20px;
+}
+header .nav-item:hover {
+  color: #647AA3;
+}
+
+/* Banner */
+#banner {
+  background-color: green;
+  padding: 20px 15px;
+}
+#banner h2 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Passion One", cursive;
+}
+#banner p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  font-family: sans-serif;
+}
+#banner button {
+  font-size: 20px;
+}
+#banner .code {
+  padding: 15px 0;
+  font-size: 20px;
+}
+#banner .code span {
+  font-weight: bold;
+}
+#banner .disclaimer {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Email */
+#email {
+  padding: 40px 0;
+  background-color: #334195;
+}
+#email h2 {
+  font-size: 35px;
+  font-family: "Passion One", cursive;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* Deal */
+#deal {
+  padding: 40px 0;
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/09/17/49/merry-4684006_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#deal .text-block {
+  background-color: #fff;
+  padding: 30px 20px;
+  opacity: 0.8;
+}
+#deal .text-block h2 {
+  font-size: 35px;
+  font-family: "Passion One", cursive;
+  color: #334195;
+}
+#deal .text-block h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#deal .text-block p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#deal .text-block .code {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#deal .text-block .code span {
+  font-weight: bold;
+  font-size: 20px;
+}
+#deal .text-block button {
+  font-size: 20px;
+}
+
+/* Trending */
+#trending {
+  padding: 40px 0;
+  background-color: #334195;
+}
+#trending h2 {
+  font-family: "Passion One", cursive;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+#trending h3 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #fff;
+}
+
+/* Second deal */
+#second-deal {
+  padding: 40px 0;
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/01/19/23/gift-553149_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#second-deal .text-block {
+  background-color: #fff;
+  padding: 30px 20px;
+  opacity: 0.8;
+}
+#second-deal .text-block h2 {
+  font-size: 35px;
+  font-family: "Passion One", cursive;
+  color: #334195;
+}
+#second-deal .text-block h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+#second-deal .text-block p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#second-deal .text-block button {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#second-deal .text-block .code {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#second-deal .text-block .code span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=tablet.css.map */
