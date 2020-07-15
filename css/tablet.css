@@ -163,4 +163,39 @@ header .nav-item:hover {
   font-size: 20px;
 }
 
+/* Bottom Nav */
+#bottom-nav {
+  background-color: #334195;
+  padding: 20px 0;
+}
+#bottom-nav .link-group {
+  padding: 15px 0;
+}
+#bottom-nav h3 {
+  font-size: 30px;
+  color: #fff;
+}
+#bottom-nav ul {
+  list-style-type: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #020887;
+  padding: 15px 0;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 10px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #647AA3;
+}
+
 /*# sourceMappingURL=tablet.css.map */

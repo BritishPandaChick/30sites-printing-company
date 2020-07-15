@@ -195,3 +195,44 @@ header {
         }
     }
 }
+
+/* Bottom Nav */ 
+#bottom-nav {
+    background-color: $cornflower;
+    padding: 20px 0;
+
+    .link-group {
+        padding: 15px 0;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    ul {
+        list-style-type: none;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+/* Footer */ 
+footer {
+    background-color: $phthalo;
+    padding: 15px 0;
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
+    }
+}
